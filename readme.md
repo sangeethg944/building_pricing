@@ -12,6 +12,13 @@ Clone the project
   git clone https://github.com/sangeethg944/building_pricing.gitt
 ```
 
+Go to the project directory
+
+```bash
+  cd building_pricing
+```
+
+Add "yolov4_custom_best.weights" and "yolov4_custom.cfg" inside floor_detection folder
 
 Install dependencies
 
@@ -29,4 +36,3 @@ Create an .env and enter the API key in the following format
 ```bash
   API_KEY = "*****-***"
 ```
-Add "yolov4_custom_best.weights" and "yolov4_custom.cfg" inside floor_detection folder
