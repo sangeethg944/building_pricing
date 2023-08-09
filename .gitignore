@@ -1,0 +1,16 @@
+venv/
+.idea
+floor_detection/__pycache__/
+area_estimation/__pycache__/
+floor_detection/images/*
+floor_detection/temp_img_dir/*
+floor_detection/temp_result_img_dir/*
+area_estimation/satellite_images/*
+!floor_detection/images/.gitkeep
+!floor_detection/temp_img_dir/.gitkeep
+!floor_detection/temp_result_img_dir/.gitkeep
+!area_estimation/satellite_images/.gitkeep
+.env
+floor_detection/yolov4_custom.cfg
+floor_detection/yolov4_custom_best.weights
+az.png
