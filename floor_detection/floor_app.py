@@ -32,7 +32,7 @@ def floor_detection():
         save_uploaded_file(image_file)
         st.image(load_image(image_file), width=512)
         # value = st.slider('Select a value for threshold', 0, 100, 50)
-        value = 70
+        value = 50
 
         if value and image_file.name is not None:
             detected_img, floor_count = detectObjects(image_file.name, value)
