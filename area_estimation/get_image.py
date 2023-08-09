@@ -19,7 +19,7 @@ def get_satellite_image(address):
     URL = "http://maps.googleapis.com/maps/api/staticmap?center=" + str(address) + "&visible=" + str(
         address) + "&scale" + str(scale) + "&size=800x800&maptype=satellite" + "&zoom=" + str(
         zoom) + "&markers=%7Ccolor:blue%7C" + str(
-        address) + "&sensor=true&key=AIzaSyAc-OW5YRq7WlQuiG2s3bkGCo_hQEiSL8A"
+        address) + "&sensor=true&key=" + API_KEY
 
     buffer = BytesIO(request.urlopen(URL).read())
     image = Image.open(buffer)
